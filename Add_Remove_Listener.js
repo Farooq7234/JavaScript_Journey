@@ -16,12 +16,13 @@ let y = function (event) {
 a.addEventListener('click',x) // "You Clicked me"
 a.addEventListener('click',y) // "You clicked again"
 
+let b = prompt("What is your favourite number")
+
 if (b == "2") {
     a.removeEventListener('click',x) // this will remove event listener of x
 }
 
 
-let b = prompt("What is your favourite number")
 
 // The if condition's function will not execute below. but why? (view the if block carefully)
 
