@@ -20,3 +20,4 @@ console.log(document.body.hasChildNodes) //ƒ hasChildNodes() { [native code] }
 
 // Checks whether the presence of childNodes are not
 
+
