@@ -26,7 +26,7 @@ setTimeout(function () {
 
 console.log("Hello Three")
 
-// printing promise named     variable 
+//printing promise named    variable 
 console.log(promise)
 
 
