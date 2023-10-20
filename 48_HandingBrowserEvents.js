@@ -9,7 +9,7 @@ let x = function (event) {
     console.log("You Clicked me")
 }
 let y = function (event) {
-    console.log(event)  // the function paramete (event) will all the data of event listener(print it if you don't understand)
+    console.log(event)  // the function parameter (event) will all the data of event listener(print it if you don't understand)
     console.log("You clicked again")
 }
 
