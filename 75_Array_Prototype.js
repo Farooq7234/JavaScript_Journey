@@ -16,13 +16,16 @@ let a = {
   
  /* The code is creating an object `p` with a single property `run`, which is a function that displays
  an alert message saying "run". */
- 
+
   let p = {
     run: () => {
       alert("run")
     }
   }
   
+/* The code `p.__proto__ = { name: "Jackie" }` is setting the prototype of object `p` to an object with
+a single property `name` with a value of "Jackie". */
+
   p.__proto__ = {
     name: "Jackie"
   }
