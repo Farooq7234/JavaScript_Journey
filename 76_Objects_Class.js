@@ -1,34 +1,36 @@
 // Class and Objects
 
-// We are creating a template form for railway using class and inside that we make methods
-
-class RailwayForm{
-    submit(){
-        console.log(this.name +": Your Form is submitted on train Number "+ this.trainno );
+// Defining a class to create a template for a railway form
+class RailwayForm {
+    // Method to submit the form and log the information
+    submit() {
+        console.log(this.name + ": Your Form is submitted on train Number " + this.trainno);
     }
 
-    cancel(){
-        console.log(this.name +" :Your form is cancelled of train number "+ this.trainno);
+    // Method to cancel the form and log the information
+    cancel() {
+        console.log(this.name + " :Your form is cancelled of train number " + this.trainno);
     }
-    fill(givenname,trainno){
+
+    // Method to fill the form with given name and train number
+    fill(givenname, trainno) {
         this.name = givenname;
         this.trainno = trainno;
     }
-
 }
 
-// The Variable which want to use above class should have value new RailwayForm() like below
-
+// Creating instances of the RailwayForm class for different users
 let harryForm = new RailwayForm();
-harryForm.fill("Harry",122234);
+harryForm.fill("Harry", 122234);
+
 let farooqForm = new RailwayForm();
-farooqForm.fill("Farooq",123765);
+farooqForm.fill("Farooq", 123765);
 
-harryForm.submit();
-farooqForm.submit();
-farooqForm.cancel();
+// Performing actions on the created forms
+harryForm.submit(); // Submitting Harry's form
+farooqForm.submit(); // Submitting Farooq's form
+farooqForm.cancel(); // Cancelling Farooq's form
 
-
-
+// Future developers can use this code as a template for creating and managing railway forms in JavaScript.
 
 
