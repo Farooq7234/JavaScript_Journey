@@ -1,1 +1,1 @@
-# Ultimate_JavaScript_Course
+# Personal Javascript Notes
